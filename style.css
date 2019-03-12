@@ -6,27 +6,18 @@
 *{
 	/* border: solid 1px; */
 	position: relative;
-	
-
-	
 }
 
 html,body{
 	width: 100%;
 	height: 100%;
 	margin: 0;
-
 	/* background-color: #333; */
-
 }
-
-
 header{
 	height: 100vh;
 	width: 100%;
 }
-
-
 header .bg{
 	position: fixed;
 	top: 0;
@@ -228,10 +219,15 @@ a.nav span:nth-child(3){
 .hand img{
 	width: 100%;
 	height: 100%;
-
 }
 /* /----------* header *------------/  */
 /* /----------* article *------------/  */
+.qusition h1{
+	color: #333;
+	font-size: 48px;
+	font-weight: 800;
+	font-family: 'Jua', sans-serif;
+}
 .qusition{
 	padding: 80px 0px;
 	background-color: #fefefe;
@@ -253,7 +249,6 @@ a.nav span:nth-child(3){
 	margin:10px 0;
 }
 .skill_shadow{
-	
 	padding: 10px 10px 10px 50px;
 	box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.4);
 	border-radius: 10px;
@@ -298,7 +293,6 @@ a.nav span:nth-child(3){
 		margin-bottom: 40px;
 		padding-left: 0px;
 		text-align: center;
-
 	}
 	.skill_box h4{
 		padding-top: 12px;
@@ -307,7 +301,6 @@ a.nav span:nth-child(3){
 	.skill_shadow{
 		padding: 20px;
 	}
-
 }
 
 .work_timeline{
@@ -411,9 +404,16 @@ a.nav span:nth-child(3){
 	left: -24px;
 	transform:translateX(-50%) translateY(-50%);
 	}
-
 }
 /* /----------* article *------------/  */
+/* /----------* footer *------------/  */
+footer{
+	height: 100vh;
+	width: 100%;
+	margin-top: 300px;
+}
+.
+/* /----------* footer *------------/  */
 
 
 
