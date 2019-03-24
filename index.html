@@ -4,9 +4,12 @@
 		<meta charset="UTF-8">
 		<title>Tracy Chen's Portfolio</title>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,">
-		<link rel="stylesheet" type="text/css" href="reset.css">
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+		<link rel="stylesheet"  href="css/reset.css">
+		<link rel="stylesheet"  href="css/style.css">
+		<link rel="stylesheet"  href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/jquery.fancybox.css">
+
 	</head>
 	<body>
 		
@@ -44,10 +47,11 @@
 
 		</div>
 		<img class="hand" src="images/hand.png">
-		<h1 class="tracy_1">TRACY <br>
+
+		<h1 class="tracy_1 wow bounceInLeft">TRACY <br>
 				CHEN'S <br>
 				PORTFOLIO</h1>
-		<h1 class="tracy_2">TRACY <br>
+		<h1 class="tracy_2 wow bounceInLeft">TRACY <br>
 				CHEN'S <br>
 				PORTFOLIO</h1>	
 
@@ -55,13 +59,13 @@
 <!-- ************ Nav *************  -->
 <!-- ************ About *************  -->
 
-		<article>
+<article>
 
-			<div class="about" id="about">
+		<div class="about" id="about">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 col-sm-push-3">
-							<h1>About</h1>
+							<h1 class="fadeInUp">About</h1>
 							<div class="my_pic">
 								<img src="images/lamb.png">
 							</div>
@@ -142,12 +146,12 @@
 				</div>
 			</div>
 		</div>
-<!-- ************  *************  -->		
+<!-- ************ work_timeline *************  -->		
 
 		<div class="work_timeline">
 			<div class="container">
 					<div class="row">
-						<h2 class="u-text-center">Work</h2>
+						<h2 class="u-text-center">Expiriance</h2>
 						<div class="timeline-group">
 							<div class="timeline"></div>
 							<div class="timeline-row">
@@ -161,7 +165,7 @@
 							</div>	
 						</div>
 						<div class="timeline-row">
-								<div class="timeline-card">
+								<div class="timeline-card wow bounceInUp">
 									<p>
 										<h3>Title</h3>
 										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -190,38 +194,105 @@
 									</p>
 								</div>	
 							</div>
-							<div class="timeline-row">
-								<div class="timeline-card">
-									<p>
-										<h3>Title</h3>
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-										quis nostrud exercitation 
-									</p>
-								</div>	
-							</div>
 					</div>
 				</div>
-			</div>
-		</div>
-
-	</div>
-						
-						
-						
+			</div>					
 	</div>	
 	</div>	
 	</div>
-	</article>
 	
-<!-- ************ skill *************  -->
-		<footer>
-		<div class="contect">
-			
+
+<!-- ************ work *************  -->
+	<div class="worklist">
+		<div class="container">
+			<div class="row">
+				<h1>Work</h1>
+				<div class="workitem wow fadeInUp">
+					<div class="row">
+					<div class="col-sm-6 col-sm-push-5">
+							<div class="imgbox">
+								<a href="images/lamb.png" data-fancybox="group">
+									<img src="images/lamb.png">
+								</a>
+							</div>	
+					</div>
+						<div class="col-sm-4 col-sm-pull-3">
+							<h3 class="worklist_title title-right">Title</h3>
+							<p class="worklist_word title-right">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="workitem wow fadeInUp">
+					<div class="row">
+					<div class="col-sm-6 col-sm-push-1">
+							<div class="imgbox">
+								<a href="images/lamb.png" data-fancybox="group">
+									<img src="images/lamb.png">
+								</a>
+							</div>	
+					</div>
+						<div class="col-sm-4 col-sm-pull-1">
+							<h3 class="worklist_title title-left">Title</h3>
+							<p class="worklist_word title-left">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="workitem wow fadeInUp">
+					<div class="row">
+					<div class="col-sm-6 col-sm-push-5">
+							<div class="imgbox" >
+							 	<a href="images/lamb.png" data-fancybox="group"><img src="images/lamb.png">
+							 	</a>
+							</div>	
+					</div>
+						<div class="wordbox col-sm-4 col-sm-pull-3">
+							<h3 class="worklist_title title-right">Title</h3>
+							<p class="worklist_word title-right">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="workitem">
+					<div class="row">
+					<div class="col-sm-6 col-sm-push-1">
+							<div class="imgbox">
+								<a href="images/lamb.png" data-fancybox="group">
+									<img src="images/lamb.png">
+								</a>
+							</div>	
+					</div>
+						<div class="wordbox col-sm-4 col-sm-pull-1">
+							<h3 class="worklist_title">Title</h3>
+							<p class="worklist_word">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+				
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>		
 		</div>
+	</div>	
 
-		</footer>
-
-
+</article>	
+		
+<footer>
+</footer>
+<script type="js/jquery-2.0.2.min.js"></script>
+<script type="js/jquery.fancybox.min.js"></script>
+<script type="js/wow.min.js"></script>
+<script type="js/custom.js"></script>
 	</body>
 	</html>	
