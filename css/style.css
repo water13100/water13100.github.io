@@ -5,7 +5,8 @@
 
 *{
 	/* border: solid 1px; */
-	position: relative;	
+	position: relative;
+		
 }
 
 html,body{
@@ -14,13 +15,16 @@ html,body{
 	margin: 0;
 	/* background-color: #333; */
 }
-
-
+p{
+	font-family: 'Courier New', Courier, monospace
+}
+h1{
+	margin-bottom: 50px;
+}
 header{
 	height: 100vh;
 	width: 100%;
 }
-
 
 header .bg{
 	position: fixed;
@@ -60,6 +64,7 @@ header .bg{
 	font-family: 'Jua', sans-serif;
 	opacity: 0.5;
 }
+
 @media(max-width: 768px){	
 	.lamb{
 		padding-top: 120px;
@@ -242,15 +247,21 @@ header a.nav span:nth-child(3){
 	font-family: 'Jua', sans-serif;
 }
 .my_pic{
-	height: 100%;
-	width: 100%;
-	border-radius: 5px;
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
 	box-shadow: 5px 5px 5px;
 	margin-bottom: 40px;
+	margin: auto;
+	
 }
 .my_pic img{
-	width: 80%;
-	height: 80%;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;	
+}
+.about p{
+	margin-top: 50px;
 }
 [class^="circle_"]{
 	position: absolute;
@@ -348,14 +359,13 @@ header a.nav span:nth-child(3){
 .icon_img {
 	top: 50%;
 	left: 50%;
-	transform:translateX(-50%) translateY(-50%);
-	width: 60px;
-	z-index: 2;
+	transform:translateX(-30%) translateY(-50%);
+	
+	z-index: 1;
 }
-.icon_img img{
-	width: 100%;
-	height: 100%;
-}
+	
+
+	
 
 
 @media(max-width:768px){
@@ -377,7 +387,13 @@ header a.nav span:nth-child(3){
 	.skill_shadow{
 		padding: 20px;
 	}
-
+	.icon_img {
+		top: 50%;
+		left: 50%;
+		transform:translateX(-50%) translateY(-50%);
+		
+		z-index: 1;
+	}
 }
 /* /----------* work *------------/  */
 
@@ -421,7 +437,9 @@ header a.nav span:nth-child(3){
 .timeline-card p{
 	opacity: 1;
 }
-
+.timeline-card  h3{
+	font-size: 20px;
+}
 .timeline-row:nth-child(odd){
 	display: flex;
 	justify-content: flex-end;
@@ -463,6 +481,7 @@ header a.nav span:nth-child(3){
 	}
 	.timeline{
 		left: 24px;
+		height: 120%;
 	}
 	.timeline-card{
 		left: 30px;
@@ -486,12 +505,17 @@ header a.nav span:nth-child(3){
 }
 /* /----------* work *------------/  */
 .worklist{
+	padding-top: 300px;
 	height: 1700px;
 	background-color: #fff;
+}
+.workitem{
+	margin-bottom: 100px;
 }
 .imgbox{
 	height: 100%;
 	width: 100%;
+	border-radius: 50px;
 }
 .worklist a{
 	height: 100%;
@@ -500,6 +524,8 @@ header a.nav span:nth-child(3){
 .worklist img{
 	height: 100%;
 	width: 100%;
+	border-radius: 50px;
+
 }
 
 .worklist h1{
@@ -509,16 +535,83 @@ header a.nav span:nth-child(3){
 	font-weight: 800;
 	font-family: 'Jua', sans-serif;
 }
+.worklist h3{
+	font-size: 28px;
+	letter-spacing: 2px;
+	margin: 0px;
+	padding: 0px;
+}
 .worklist p{
 	font-size: 14px;
 	color: #333;
 }
 .wordbox{
 	margin-top: 30px;
+	
 }
 .title-left{
 	text-align: left;
 }
 .title-right{
 	text-align: right;
+}
+button{
+	padding: 10px 20px;
+	position: absolute;
+}
+button:hover{
+	
+	background-color: #8ca6e4;
+
+}
+button:hover .work_btn{
+	text-decoration: none;
+	color: #fff;
+}
+.button-right{
+	right: 20px;
+}
+.button-left{
+	left: 20px;
+
+}
+.work_btn{
+	
+	text-decoration: none;
+	transition: 0.5s;
+	
+}
+.work_hr{
+	width: 200px;
+	color: rgb(26, 24, 24);
+	position: absolute;
+	transform: translateY(-15px);
+
+}
+
+@media(max-width:748px){
+.title-left{
+	text-align: center;
+}
+.title-right{
+	text-align: center;
+}
+.workitem{
+padding: 25px;
+}
+.worklist{
+	height: 2400px;	
+}
+button{
+	text-align: center;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+
+@media(max-width: 480px){
+.workitem{
+	padding: 10px;
+}
 }
