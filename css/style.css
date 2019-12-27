@@ -6,8 +6,7 @@
 
 *{
 	/* border: solid 1px; */
-	position: relative;
-		
+	position: relative;	
 }
 
 html,body{
@@ -92,6 +91,7 @@ header .bg{
 	.tracy_2{
 		font-size: 70px;
 	}
+
 }
 @media(max-width: 480px){
 	
@@ -107,7 +107,6 @@ header .bg{
 	.hand img{
 	width: 30%;
 	height: 30%;
-
 	}
 	.tracy_1{
 		font-size: 60px;
@@ -329,7 +328,6 @@ header a.nav span:nth-child(3){
 }
 /* /----------* skill *------------/  */
 
-
 .skill{
 	background-color: #fefefe;
 	padding-bottom: 100px;
@@ -523,9 +521,8 @@ header a.nav span:nth-child(3){
 .worklist{
 	padding-top: 300px;
 	padding-bottom: 250px;
-	height: 2300px;
+	height: 100%;
 	background-color:#fff;
-
 }
 
 .workitem{
@@ -547,8 +544,6 @@ header a.nav span:nth-child(3){
 	height: 100%;
 	width: 100%;
 	transition: 0.3s;
-	
-
 }
 .imgbox:hover{
 	box-shadow: 0px 5px 10px rgb(168, 168, 168);
@@ -635,27 +630,27 @@ button{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-
 }
 .button-left{
 	text-align: center;
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
-
 }
 
 @media(max-width: 480px){
 .workitem{
 	padding: 10px;
 	}
+.worklist{
+		height: 100%;
+	}
+	
 }
-}
+
 footer{
 	padding-top: 100px;
-	background-color:rgba(0, 0, 0, 0.5);
-
-	
+	background-color:rgba(0, 0, 0, 0.5);	
 }
 footer h1{
 	margin-top: 20px;
@@ -689,7 +684,7 @@ footer i{
 	
 }
 .worklist_1{
-	height: 300px;
+	height: 100%;
 }
 .line{
 	/* border: solid 1px #222; */
@@ -698,3 +693,13 @@ footer i{
 
 
 }
+
+@media(max-width: 480px){
+	.footer{
+		margin-top: 100px;
+		height: 600px;
+		}
+	.worklist_1 {
+			height: 100%; 
+		}
+	}
