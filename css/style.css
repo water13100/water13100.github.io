@@ -690,8 +690,6 @@ footer i{
 	/* border: solid 1px #222; */
 	border-right: solid 1px #fefefe;
 	border-left: solid 1px #fefefe;
-
-
 }
 
 @media(max-width: 480px){
@@ -701,5 +699,8 @@ footer i{
 		}
 	.worklist_1 {
 			height: 100%; 
+		}
+		.worklist_1{
+			height: 100%;
 		}
 	}
