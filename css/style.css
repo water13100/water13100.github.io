@@ -613,6 +613,43 @@ button:hover .work_btn{
 	transform: translateY(-15px);
 
 }
+footer{
+	color: #fff;
+	padding: 300px;
+	background-color:rgba(0, 0, 0, 0.5);	
+}
+ footer h1{
+	margin-top: 20px;
+	color: #fefefe;
+	text-align: center;
+	font-size: 48px;
+	font-weight: 400;
+	font-family: 'Secular One', sans-serif;
+}
+footer h4{
+	text-align: center;
+	color: #fefefe;
+	margin: 0px;
+}
+
+footer a {
+ 	/* background-color: #fefefe;  */
+	 /* display: block;
+	/* position: relative;
+	left: 50%;
+	transform: translateX(-50%); */
+	/* width: 60px;
+	height: 60px;
+	border-radius: 50%;	   */
+}
+footer i{
+	/* background-color: #fefefe;  */
+	color: #fefefe;
+
+	transform: translate(-50%,-50%);
+	left: 50%;
+	top:50%;
+} 
 
 @media(max-width:748px){
 .title-left{
@@ -636,9 +673,13 @@ button{
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
+
 }
 
 @media(max-width: 480px){
+	body{
+		width: 170%;
+	}
 .workitem{
 	padding: 10px;
 	}
@@ -660,12 +701,21 @@ button{
 footer{
 	color: #fff;
 	padding: 300px;
-	background-color:rgba(0, 0, 0, 0.5);	
+	background-color:rgba(0, 0, 0, 0.5);
+	
+}
+
+footer .col-sm-4{
+	position: relative;
+	left: 60%;
+	transform: translateX(-50%);
+	height: 120px;
+	width: 400px;
 }
  footer h1{
 	margin-top: 20px;
 	color: #fefefe;
-	text-align: center;
+	/* text-align: center; */
 	font-size: 48px;
 	font-weight: 400;
 	font-family: 'Secular One', sans-serif;
@@ -675,7 +725,7 @@ footer h4{
 	color: #fefefe;
 }
 
-footer a {
+/* footer a {
 	background-color: #fefefe;
 	display: block;
 	position: relative;
@@ -683,12 +733,14 @@ footer a {
 	transform: translateX(-50%);
 	width: 60px;
 	height: 60px;
-	border-radius: 50%;
-	
-}
+	border-radius: 50%;	
+} */
 footer i{
-	transform: translate(-50%,-50%);
+	color: #fefefe;
+
+	/* transform: translate(-50%,-50%);
 	left: 50%;
-	top:50%;
+	top:50%; */
 } 
  
+}
